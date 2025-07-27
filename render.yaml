@@ -1,12 +1,4 @@
 services:
-  - type: web
+  - type: docker
     name: movie-booking-ticket
-    env: java
-    buildCommand: chmod +x mvnw && ./mvnw clean package
-    startCommand: java -jar target/jav_projecto1-0.0.1-SNAPSHOT.jar
     plan: free
-    envVars:
-      - key: JAVA_VERSION
-        value: 17
-      - key: JAVA_HOME
-        value: /usr/lib/jvm/java-17-openjdk

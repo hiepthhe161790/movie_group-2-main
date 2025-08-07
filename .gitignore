@@ -31,3 +31,17 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Không đẩy file môi trường
+.env
+application.properties
+
+# Không đẩy dữ liệu mẫu
+data.sql
+database.sql
+
+# Không đẩy file log
+*.log
+
+# Không đẩy file cấu hình cá nhân
+*.local
